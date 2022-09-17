@@ -2,23 +2,34 @@
 font-family: 'FairwallSans-Regular';
 src: url("C:/Users/m2006073/Desktop/design/fonts/FairwallSans-Regular.otf") format("opentype");
 }
+@font-face {
+font-family: 'FemmeFatale';
+src: url("C:/Users/m2006073/Desktop/design/fonts/FemmeFatale-Regular.otf") format("opentype");
+}
+* {
+  cursor: url(svg/cursor.svg), auto;
+}
 body {
   padding: 0;
   margin: 0;
   background: black;
-  background-image: url(svg/back.svg);
-  background-position: 35% 20%;
+  background-image: url(svg/background.svg);
+  background-position: 35% 2%;
   background-size: 110%;
   color: #fff;
   font-family: 'FairwallSans-Regular';
   overflow: hidden;
   background-repeat: no-repeat;
 }
+a {
+  cursor: url(svg/pointer.svg), auto;
+}
 .title {
   display: flex;
   justify-content: center;
   font-size: 90px;
   margin-top: 10%;
+  font-family: 'FemmeFatale';
 }
 .gamedesigner {
   display: flex;
@@ -29,7 +40,7 @@ body {
 }
 .menu {
   margin-top: 7%;
-  margin-left: 150px;
+  margin-left: 170px;
 }
 .point {
   display: flex;
