@@ -6,10 +6,13 @@ body {
   padding: 0;
   margin: 0;
   background: black;
-  background-image: url(svg/background.svg);
-  background-position: 50% 20%;
+  background-image: url(svg/back.svg);
+  background-position: 35% 20%;
+  background-size: 110%;
   color: #fff;
   font-family: 'FairwallSans-Regular';
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
 .title {
   display: flex;
@@ -49,5 +52,11 @@ body {
   display: block;
 }
 .element:hover ~ .border {
+  display: none;
+}
+.element:active ~ .borderActive {
+  display: block;
+}
+.element:active ~ .border {
   display: none;
 }
