@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
 }
 a {
+  text-decoration: none;
   cursor: url(svg/pointer.svg), auto;
 }
 .title {
@@ -40,7 +41,7 @@ a {
 }
 .menu {
   margin-top: 7%;
-  margin-left: 170px;
+  margin-left: 11%;
 }
 .point {
   display: flex;
