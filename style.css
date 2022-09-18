@@ -1,10 +1,10 @@
 @font-face {
 font-family: 'FairwallSans-Regular';
-src: url("C:/Users/m2006073/Desktop/design/fonts/FairwallSans-Regular.otf") format("opentype");
+src: url("FairwallSans-Regular.otf") format("opentype");
 }
 @font-face {
 font-family: 'FemmeFatale';
-src: url("C:/Users/m2006073/Desktop/design/fonts/FemmeFatale-Regular.otf") format("opentype");
+src: url("FemmeFatale-Regular.otf") format("opentype");
 }
 * {
   cursor: url(svg/cursor.svg), auto;
