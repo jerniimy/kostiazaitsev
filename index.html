@@ -4,8 +4,20 @@
   <meta charset="utf-8" />
   <title>Kostia Zaitsev CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.css">
  </head>
  <body>
+   <div id="wrapper">
+     <div class="overlay" onclick="closeWindow()"></div>
+     <div class="content">
+       <p id="close" onclick="closeWindow()">X</p>
+       Мои контакты:
+     </div>
+ </div>
+   <div class="contactMe">
+     <p onclick="modalWindow()">СВЯЗАТЬСЯ СО МНОЙ</p>
+     <img src="svg/arrowInCircle.svg" class="arrow" onclick="modalWindow()">
+   </div>
      <p class="title name">КОСТЯ ЗАЙЦЕВ</p>
      <p class="gamedesigner">гейм-дизайнер</p>
    <div class="menu">
@@ -25,12 +37,12 @@
        <img class="borderActive" src="svg/centerActive.svg">
      </div>
      <div class="point">
-       <a class="element" href="#">Кот Шрёдингера (2021-2022)</a>
+       <a class="element" href="#">Кот Шрёдингера (2021 - 2022)</a>
        <img class="border" src="svg/center.svg">
        <img class="borderActive" src="svg/centerActive.svg">
      </div>
      <div class="point">
-       <a class="element" href="#">Purpose (2020-...)</a>
+       <a class="element" href="purpose.html">Purpose (2020 - сейчас)</a>
        <img class="border" src="svg/last.svg">
        <img class="borderActive" src="svg/lastActive.svg">
      </div>

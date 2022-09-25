@@ -1,0 +1,100 @@
+body {
+  background-image: url(svg/background.svg);
+  background-position: 35% 2%;
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+#wrapper {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+#wrapper.active {
+  display: flex;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: grey;
+  opacity: 0.5;
+  cursor: url(svg/pointer.svg), auto;
+}
+.content {
+  position: absolute;
+  padding-left: 20px;
+  width: 30vw;
+  height: 40vh;
+  max-height: 300px;
+  background: #fff;
+  color: #000;
+}
+#close {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px 0 0;
+  cursor: url(svg/pointer.svg), auto;
+}
+.contactMe {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0 20px 0 0;
+  font-size: 15px;
+}
+.contactMe p {
+  cursor: url(svg/pointer.svg), auto;
+}
+.arrow {
+  width: 40px;
+  margin-left: 20px;
+  cursor: url(svg/pointer.svg), auto;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.gamedesigner {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  margin-top: -5%;
+  color: #DDD7D3;
+}
+.menu {
+  margin-top: 7%;
+  margin-left: 11%;
+}
+.point {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.element {
+  order: 1;
+  margin-left: 20px;
+  color: #7C7C7C;
+  transition: all ease .2s;
+}
+.element:hover {
+  color: #fff;
+}
+.element ~ .borderActive {
+  display: none;
+}
+.element:hover ~ .borderActive {
+  display: block;
+}
+.element:hover ~ .border {
+  display: none;
+}
+.element:active ~ .borderActive {
+  display: block;
+}
+.element:active ~ .border {
+  display: none;
+}
