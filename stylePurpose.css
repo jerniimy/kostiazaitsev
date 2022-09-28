@@ -8,6 +8,7 @@ header {
   height: 9vh;
   max-height: 100px;
   background: rgb(0, 0, 0, 0.4);
+  font-size: 23px;
 }
 .navigation {
   display: flex;
@@ -37,29 +38,90 @@ main {
 }
 .status {
   display: grid;
-  padding: 0;
-  grid-template-columns: repeat(10, 10vw);
-  grid-template-rows: 15vw 10vw;
+  grid-template-columns: 50vw max-content;
+  grid-template-rows: 260px min-content;
   position: relative;
-  font-family: "FemmeFatale";
-  font-size: 40px;
 }
 .smear {
-  grid-column: 6/span 4;
+  grid-column: 2/span 1;
   grid-row: 2/span 1;
+  max-width: 30vw;
   z-index: 0;
 }
 .status p {
   z-index: 10;
-  grid-column: 6/-1;
+  grid-column: 2/span 1;
   grid-row: 2/span 1;
+  max-width: 45vw;
+  font-family: "FemmeFatale";
+  font-size: 40px;
 }
 .roles {
-  padding-top: 3vh;
+  padding-top: 5vh;
   font-size: 23px;
 }
 .lamp {
   position: relative;
-  top: -11vh;
+  top: -10vh;
   left: 80vw;
+}
+.about {
+  position: relative;
+  top: -30vh;
+  display: flex;
+}
+.textAbout > p {
+  font-size: 23px;
+  margin: 0 0 50px 100px;
+}
+.textAbout > .title {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.illustration {
+  min-width: 42vw;
+}
+.aboutProject {
+  margin: 100px 0 100px 0;
+  align-items: flex-start;
+}
+.robot {
+  height: calc(42vw * 9/16);
+}
+.aboutProject > .textAbout {
+  text-align: right;
+  margin: 0 100px 50px 0;
+}
+.illustrations {
+  display: flex;
+  justify-content: space-between;
+}
+.scene {
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: -10vh;
+}
+.buttonToMainPage {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  top: 90vh;
+  z-index: 20;
+  opacity: 0.5;
+  border: none;
+  border-radius: 30px;
+  width: min-content;
+  background: #000;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 55px;
+  transition: all ease 1s;
+}
+.buttonToMainPage:hover {
+  opacity: 1;
+  background: #4E5367;
+  color: #FFE194;
 }
