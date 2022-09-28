@@ -1,0 +1,77 @@
+body {
+  background: #535656;
+}
+header {
+  position: absolute;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 9vh;
+  max-height: 100px;
+  font-size: 23px;
+}
+main {
+  padding: 0 3vw 0 3vw;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin: 0 3vw;
+  color: #fff;
+}
+.arrow {
+  padding: 0 10px;
+}
+.VALDBackground {
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  height: 100vh;
+}
+.VALD {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: calc(100vw*9/16/4);
+  margin: 0;
+}
+.description {
+  padding-top: 2vh;
+  font-size: 23px;
+}
+.status {
+  padding-top: calc(100vw*462/1440/2);
+  font-family: "FemmeFatale";
+  font-size: 40px;
+}
+.roles {
+  padding-top: 10vh;
+  font-size: 23px;
+}
+.about {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.illustration {
+  min-width: 42vw;
+}
+.textAbout > .text {
+  font-size: 23px;
+  margin: -10px 100px 30px 0;
+}
+.textAbout > .title {
+  font-size: 40px;
+  margin: 0 100px 10px 0;
+}
+.aboutProject {
+  margin: 100px 0 100px 0;
+  align-items: flex-start;
+}
+.aboutProject > .textAbout {
+  text-align: center;
+  margin: 0 0 50px 0;
+}

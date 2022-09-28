@@ -1,3 +1,6 @@
+body {
+  background: black;
+}
 header {
   position: absolute;
   display: flex;
@@ -23,7 +26,7 @@ header {
   position: absolute;
   top: 0;
   z-index: -10;
-  width: 100vw;
+  height: 100vh;
 }
 main {
   padding: 0 3vw 0 3vw;
@@ -70,13 +73,13 @@ main {
   top: -30vh;
   display: flex;
 }
-.textAbout > p {
+.textAbout > .text {
   font-size: 23px;
-  margin: 0 0 50px 100px;
+  margin: -10px 0 30px 100px;
 }
 .textAbout > .title {
-  font-size: 45px;
-  margin-bottom: 15px;
+  font-size: 40px;
+  margin: 0 0 10px 100px;
 }
 .illustration {
   min-width: 42vw;
@@ -84,6 +87,7 @@ main {
 .aboutProject {
   margin: 100px 0 100px 0;
   align-items: flex-start;
+  font-size: 23px;
 }
 .robot {
   height: calc(42vw * 9/16);

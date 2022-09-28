@@ -1,4 +1,5 @@
 body {
+  background: black;
   background-image: url(svg/background.svg);
   background-position: 35% 2%;
   background-size: 110%;
