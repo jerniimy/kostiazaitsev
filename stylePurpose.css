@@ -63,6 +63,7 @@ main {
   position: absolute;
   top: calc(100vw*9/18);
   z-index: -5;
+  width: 15vw;
 }
 .about {
   display: flex;
@@ -158,6 +159,7 @@ main {
   }
 }
 @media (max-width: 660px) {
+  .pu
   .smear {
     margin-top: -30vh;
   }
