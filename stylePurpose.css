@@ -2,22 +2,29 @@ body {
   background: black;
 }
 header {
-  position: absolute;
-  display: flex;
-  top: 0;
-  justify-content: space-between;
-  align-items: center;
   width: 100vw;
-  height: 9vh;
-  max-height: 100px;
-  background: rgb(0, 0, 0, 0.4);
   font-size: 23px;
+}
+.header {
+  display: flex;
+  margin: -1vh 3vw 0 3vw;
+  z-index: -5;
+  width: 90vw;
 }
 .navigation {
   display: flex;
   align-items: center;
-  margin: 0 3vw;
+  justify-content: space-between;
+  margin: -9vh 3vw 0 3vw;
   color: #fff;
+}
+.left {
+  grid-column: 2/span 1;
+  grid-row: 1/span 2;
+}
+.right {
+  grid-column: 4/span 1;
+  grid-row: 1/span 2;
 }
 .arrow {
   padding: 0 10px;
@@ -26,7 +33,7 @@ header {
   position: absolute;
   top: 0;
   z-index: -10;
-  height: 100vh;
+  width: 100vw;
 }
 main {
   padding: 0 3vw 0 3vw;

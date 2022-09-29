@@ -28,13 +28,13 @@ main {
   position: absolute;
   top: 0;
   z-index: -10;
-  height: 100vh;
+  width: 100vw;
 }
 .VALD {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: calc(100vw*9/16/4);
+  padding-top: calc(100vw*9/16/6);
   margin: 0;
 }
 .description {
