@@ -3,38 +3,50 @@
  <head>
   <meta charset="utf-8" />
   <title>Purpose</title>
-  <link rel="stylesheet" href="styleVALD.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleVALD.css">
  </head>
  <body>
    <header>
-     <a href="index.html" class="navigation"><img class="arrow" src="svg/arrowLeft.svg">Главная страница</a>
-     <a href="#" class="navigation">Кот Шрёдингера<img class="arrow" src="svg/arrowRight.svg"></a>
+     <img class="header" src="svg/VALD/header.svg">
+     <div class="navigation">
+       <a href="index.html" class="navigation"><img class="arrow" src="svg/arrowLeft.svg">Главная страница</a>
+       <a href="#" class="navigation">Кот Шрёдингера<img class="arrow" src="svg/arrowRight.svg"></a>
+     </div>
    </header>
-   <img class="VALDBackground" src="svg/VALD/VALDMain.svg">
+   <img id="VALDBackground" class="active" src="svg/VALD/VALDMain.svg">
+   <img id="VALDBackgroundHover" src="svg/VALD/VALDMainHover.svg">
    <main>
-     <p class="title VALD">VALD</p>
+     <p class="title" id="VALD">VALD</p>
      <p class="description VALD">История затрагивает события, во время которых главный герой выполняет одно из заданий местной гильдии наемников по поиску семьи, пропавшей в одной из пригородных деревень после бандитского налета. </p>
      <p class="status VALD">СТАТУС ПРОЕКТА: ОТЛОЖЕН НА ПЕРЕРАБОТКУ</p>
      <div class="roles">
        <p>ХУДОЖНИК, ГЕЙМ-ДИЗАЙНЕР, ЛЕВЕЛ-ДИЗАЙНЕР, САУНД-ДИЗАЙНЕР, НАРРАТИВНЫЙ ДИЗАЙНЕР</p>
        <hr>
      </div>
-     <div class="about">
-       <img class="illustration" src="svg/VALD/illustration1.svg">
-       <div class="textAbout">
-         <p class="title genre">ЖАНР ИГРЫ</p>
-         <p class="text genre">экшен-квест, платформер</p>
-         <p class="title style">СТИЛИСТИКА МИРА</p>
-         <p class="text style">Пост-постапокалипсис с элементами стимпанка</p>
-         <p class="title point">ГЛАВНАЯ ФИШКА ИГРЫ</p>
-         <p class="text point">перемещение между мирами</p>
+       <div class="infoBlockWrapper">
+         <img class="texture" src="svg/VALD/texture.svg">
+         <img class="wave" src="svg/VALD/wave.svg">
+       <div class="about">
+         <img class="illustration" src="svg/VALD/illustration1.svg">
+         <div class="textAbout">
+           <p class="title genre">ЖАНР ИГРЫ</p>
+           <p class="text genre">экшен-квест, платформер</p>
+           <p class="title style">СТИЛИСТИКА МИРА</p>
+           <p class="text style">Пост-постапокалипсис с элементами стимпанка</p>
+           <p class="title point">ГЛАВНАЯ ФИШКА ИГРЫ</p>
+           <p class="text point">перемещение между мирами</p>
+         </div>
+       </div>
+       <div class="aboutProject">
+         <img class="illustration" src="svg/VALD/illustration2.svg">
+         <div class="textAbout">
+           <p class="title">О ПРОЕКТЕ</p>
+           <p>Purpose изначально был дипломным проектом, над которым я работал в команде, в которой, помимо меня, было двое программистов и художница (2020). На данный момент работа над проектом продолжается с переформированной командой.</p>
+         </div>
        </div>
      </div>
-     <div class="aboutProject">
-       <img class="illustration" src="svg/VALD/illustration2.svg">
-       <div class="textAbout">
-         <p class="title">О ПРОЕКТЕ</p>
-         <p>Purpose изначально был дипломным проектом, над которым я работал в команде, в которой, помимо меня, было двое программистов и художница (2020). На данный момент работа над проектом продолжается с переформированной командой.</p>
-       </div>
-     </div>
+   </main>
+   <script src="main.js"></script>
+ </body>
+ </html>

@@ -1,43 +1,38 @@
 body {
   background: #535656;
 }
-header {
-  position: absolute;
-  display: flex;
-  top: 0;
-  justify-content: space-between;
-  align-items: center;
-  width: 100vw;
-  height: 9vh;
-  max-height: 100px;
-  font-size: 23px;
-}
-main {
-  padding: 0 3vw 0 3vw;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-  margin: 0 3vw;
-  color: #fff;
-}
 .arrow {
   padding: 0 10px;
 }
-.VALDBackground {
+#VALDBackground {
   position: absolute;
+  display: none;
   top: 0;
   z-index: -10;
   width: 100vw;
 }
-.VALD {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: calc(100vw*9/16/6);
-  margin: 0;
+#VALDBackground.active {
+  display: block;
+}
+#VALDBackgroundHover {
+  position: absolute;
+  display: none;
+  top: 0;
+  z-index: -10;
+  width: 100vw;
+}
+#VALDBackgroundHover.active {
+  display: block;
+}
+#VALD {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: min-content;
+  margin-top: calc(100vw*9/16/6);
 }
 .description {
+  text-align: center;
   padding-top: 2vh;
   font-size: 23px;
 }
@@ -46,9 +41,28 @@ main {
   font-family: "FemmeFatale";
   font-size: 40px;
 }
+.infoBlockWrapper {
+  position: relative;
+}
 .roles {
   padding-top: 10vh;
   font-size: 23px;
+}
+.texture {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: -10px;
+  bottom: 0;
+  right: 0;
+  max-width: 35vw;
+  z-index: -5;
+}
+.wave {
+  position: absolute;
+  top: 5vh;
+  z-index: -5;
+  width: 45vw;
 }
 .about {
   padding-top: 5vh;

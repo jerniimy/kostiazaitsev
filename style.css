@@ -13,12 +13,32 @@ src: url("font/FemmeFatale-Regular.otf") format("opentype");
   background: #D6F301;
   color: black;
 }
+header {
+  width: 100vw;
+  font-size: 1.5vw;
+}
 body {
   padding: 0;
   margin: 0;
   color: #fff;
   font-family: 'FairwallSans-Regular';
   overflow-x: hidden;
+}
+main {
+  padding: 0 3vw;
+}
+.header {
+  display: flex;
+  margin: 0 3vw 0 3vw;
+  z-index: -5;
+  width: 90vw;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -2.5vw 3vw 0 3vw;
+  color: #fff;
 }
 a {
   text-decoration: none;

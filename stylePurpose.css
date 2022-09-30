@@ -1,22 +1,8 @@
 body {
   background: black;
 }
-header {
-  width: 100vw;
-  font-size: 1.5vw;
-}
-.header {
-  display: flex;
-  margin: -1vh 3vw 0 3vw;
-  z-index: -5;
-  width: 90vw;
-}
 .navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: -4vw 3vw 0 3vw;
-  color: #fff;
+  margin-top: -4vw;
 }
 .arrow {
   padding: 0 10px;
@@ -27,14 +13,13 @@ header {
   z-index: -10;
   width: 100vw;
 }
-main {
-  padding: 0 3vw 0 3vw;
-}
 .purpose {
+  text-align: center;
   padding-top: calc(100vw*9/32 - 35vh);
   margin: 0 3vw 0 3vw;
 }
 .description {
+  text-align: center;
   margin-top: -1vh;
   font-size: 1.5vw;
   margin: 0 3vw 0 3vw;
@@ -159,7 +144,10 @@ main {
   }
 }
 @media (max-width: 660px) {
-  .pu
+  .purposeBackground {
+    height: 60vh;
+    width: calc(60vh*16/9);
+  }
   .smear {
     margin-top: -30vh;
   }
