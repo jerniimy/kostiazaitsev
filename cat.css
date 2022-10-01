@@ -1,13 +1,6 @@
 body {
   background-image: url(svg/cat/back.svg);
 }
-.header {
-  width: 95vw;
-  margin-top: 1vh;
-}
-.navigation {
-  margin-top: -8vh;
-}
 .catBack {
   position: absolute;
   top: 0;
