@@ -1,12 +1,6 @@
 body {
   background: black;
 }
-.header {
-  margin-top: 1vh;
-}
-.navigation {
-  margin-top: -4vw;
-}
 .purposeBackground {
   position: absolute;
   top: 0;
@@ -15,14 +9,13 @@ body {
 }
 .purpose {
   text-align: center;
-  padding-top: calc(100vw*9/32 - 35vh);
+  padding-top: 8vw;
   margin: 0 3vw 0 3vw;
 }
 .description {
   text-align: center;
   margin-top: -1vh;
   font-size: 1.5vw;
-  margin: 0 3vw 0 3vw;
 }
 .roles {
   margin-top: 18vh;
@@ -77,43 +70,4 @@ body {
 }
 .scene > .illustration {
   max-width: 42vw;
-}
-@media (max-width: 1365px) {
-  .roles {
-    margin-top: 25vh;
-  }
-}
-@media (max-width: 1175px) {
-  .purpose {
-    margin-top: 10vh;
-  }
-  .smear {
-    margin-top: 13vh;
-  }
-  .status p {
-    margin-top: -8vh;
-  }
-  .roles {
-    margin-top: 10vh;
-  }
-}
-@media (max-width: 955px) {
-  .status p {
-    margin-top: -13vh;
-  }
-  .smear {
-    margin-top: 5vh;
-  }
-  .roles {
-    margin-top: 0;
-  }
-}
-@media (max-width: 660px) {
-  .purposeBackground {
-    height: 60vh;
-    width: calc(60vh*16/9);
-  }
-  .smear {
-    margin-top: -30vh;
-  }
 }
