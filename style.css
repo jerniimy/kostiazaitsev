@@ -99,13 +99,13 @@ a {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: #e0e0e0;
+  background: #2B2B2B;
   z-index: 1001;
 }
 .wrapper {
    display: flex;
    justify-content: center;
-   margin-top: 30px;
+   margin-top: 45vh;
 }
 .preloader_text {
    width: 7ch;
