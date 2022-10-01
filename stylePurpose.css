@@ -1,6 +1,9 @@
 body {
   background: black;
 }
+.header {
+  margin-top: 1vh;
+}
 .navigation {
   margin-top: -4vw;
 }
