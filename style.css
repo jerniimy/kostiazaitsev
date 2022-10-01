@@ -29,7 +29,7 @@ main {
 }
 .header {
   display: flex;
-  margin: 0 3vw 0 3vw;
+  margin: -5vh 3vw 0 3vw;
   z-index: -5;
   width: 90vw;
 }
@@ -37,8 +37,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: -2.5vw 3vw 0 3vw;
+  margin: -3vw 3vw 0 3vw;
   color: #fff;
+}
+.arrow {
+  padding: 0 10px;
 }
 a {
   text-decoration: none;
@@ -47,4 +50,79 @@ a {
 .title {
   font-size: 5vw;
   font-family: 'FemmeFatale';
+}
+.status {
+  margin-left: 55vw;
+}
+.smear {
+  margin-top: 18vh;
+  width: 30vw;
+}
+.status p {
+  z-index: 10;
+  margin-top: -12vh;
+  max-width: 45vw;
+  font-family: "FemmeFatale";
+  font-size: 2vw;
+}
+.buttonToMainPage {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  top: 90vh;
+  z-index: 20;
+  opacity: 0.5;
+  border: none;
+  border-radius: 30px;
+  width: min-content;
+  background: #000;
+  font-size: 1.3vw;
+  color: #fff;
+  padding: 10px 55px;
+  transition: all ease 1s;
+}
+.buttonToMainPage:hover {
+  opacity: 1;
+  background: #4E5367;
+  color: #FFE194;
+}
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #e0e0e0;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }

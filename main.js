@@ -9,12 +9,25 @@ function closeWindow() {
 };
 
 // vald
+const vald = document.getElementById('VALD');
+const back = document.getElementById('VALDBackground');
+const backOnHover = document.getElementById('VALDBackgroundHover');
 
-document.getElementById('VALD').addEventListener('mouseover', (e) => {
-  document.getElementById('VALDBackground').classList.remove('active');
-  document.getElementById('VALDBackgroundHover').classList.add('active');
+vald.addEventListener('mouseover', (e) => {
+  back.classList.remove('active');
+  backOnHover.classList.add('active');
 });
-document.getElementById('VALD').addEventListener('mouseout', (e) => {
-  document.getElementById('VALDBackgroundHover').classList.remove('active');
-  document.getElementById('VALDBackground').classList.add('active');
+vald.addEventListener('mouseout', (e) => {
+  back.classList.add('active');
+  backOnHover.classList.remove('active');
 });
+
+// preloader
+
+window.onload = function () {
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+}

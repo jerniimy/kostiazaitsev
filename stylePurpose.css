@@ -4,9 +4,6 @@ body {
 .navigation {
   margin-top: -4vw;
 }
-.arrow {
-  padding: 0 10px;
-}
 .purposeBackground {
   position: absolute;
   top: 0;
@@ -23,20 +20,6 @@ body {
   margin-top: -1vh;
   font-size: 1.5vw;
   margin: 0 3vw 0 3vw;
-}
-.status {
-  margin-left: 55vw;
-}
-.smear {
-  margin-top: 18vh;
-  width: 30vw;
-}
-.status p {
-  z-index: 10;
-  margin-top: -12vh;
-  max-width: 45vw;
-  font-family: "FemmeFatale";
-  font-size: 2vw;
 }
 .roles {
   margin-top: 18vh;
@@ -86,32 +69,11 @@ body {
   font-size: 1.5vw;
   margin-bottom: -10vh;
 }
+.scene p {
+  opacity: 0.7;
+}
 .scene > .illustration {
-  max-width: 35vw;
-}
-.buttonToMainPage {
-  display: flex;
-  position: fixed;
-  left: 0;
-  right: 0;
-  margin: auto;
-  justify-content: center;
-  top: 90vh;
-  z-index: 20;
-  opacity: 0.5;
-  border: none;
-  border-radius: 30px;
-  width: min-content;
-  background: #000;
-  font-size: 1.3vw;
-  color: #fff;
-  padding: 10px 55px;
-  transition: all ease 1s;
-}
-.buttonToMainPage:hover {
-  opacity: 1;
-  background: #4E5367;
-  color: #FFE194;
+  max-width: 42vw;
 }
 @media (max-width: 1365px) {
   .roles {

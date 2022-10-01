@@ -1,9 +1,6 @@
 body {
   background: #535656;
 }
-.arrow {
-  padding: 0 10px;
-}
 #VALDBackground {
   position: absolute;
   display: none;
@@ -29,34 +26,29 @@ body {
   right: 0;
   margin: auto;
   width: min-content;
-  margin-top: calc(100vw*9/16/6);
+  margin-top: calc(100vw*600/1440/5);
 }
 .description {
+  margin-top: -1vh;
   text-align: center;
-  padding-top: 2vh;
-  font-size: 23px;
+  font-size: 1.5vw;
 }
 .status {
-  padding-top: calc(100vw*462/1440/2);
+  text-align: right;
+  padding-top: calc(100vw*460/1440/3);
   font-family: "FemmeFatale";
-  font-size: 40px;
+  font-size: 2vw;
 }
 .infoBlockWrapper {
   position: relative;
+  background-image: url(svg/VALD/texture.svg);
+  background-repeat: repeat-y;
+  background-position: right;
+  margin-top: -10px;
 }
 .roles {
   padding-top: 10vh;
-  font-size: 23px;
-}
-.texture {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  top: -10px;
-  bottom: 0;
-  right: 0;
-  max-width: 35vw;
-  z-index: -5;
+  font-size: 1.5vw;
 }
 .wave {
   position: absolute;
@@ -72,17 +64,19 @@ body {
 }
 .illustration {
   min-width: 42vw;
+  max-width: 45vw;
+  flex-grow: 1;
 }
 .textAbout > .text {
-  font-size: 23px;
+  font-size: 1.5vw;
   margin: -10px 100px 30px 0;
 }
 .textAbout > .title {
-  font-size: 40px;
+  font-size: 2vw;
   margin: 0 100px 10px 0;
 }
 .aboutProject {
-  margin: 100px 0 100px 0;
+  margin-top: 100px;
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
@@ -91,5 +85,15 @@ body {
   text-align: left;
   margin: 0 0 50px 100px;
   max-width: 42vw;
-  align-self: center;
+}
+.textAbout > .text {
+  font-size: 1.5vw;
+}
+.scene {
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 5vh 0;
+}
+.scene p {
+  opacity: 0.7;
 }
