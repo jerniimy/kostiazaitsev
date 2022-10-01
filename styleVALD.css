@@ -1,6 +1,9 @@
 body {
   background: #535656;
 }
+.leftUnderline {
+  width: 13vw;
+}
 #VALDBackground {
   position: absolute;
   display: none;
