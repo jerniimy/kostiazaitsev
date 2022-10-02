@@ -44,7 +44,7 @@ header {
   padding: 0 20px;
 }
 main {
-  padding: 0 3vw;
+  margin: 0 3vw;
 }
 a {
   text-decoration: none;
@@ -54,12 +54,18 @@ a {
   font-size: 5vw;
   font-family: 'FemmeFatale';
 }
+.description {
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 0 23vw;
+}
 .status {
   margin-left: 55vw;
 }
 .smear {
   margin-top: 22vh;
-  width: 30vw;
+  max-width: 30vw;
+  min-width: 20vw;
 }
 .status p {
   z-index: 10;
@@ -67,6 +73,44 @@ a {
   max-width: 45vw;
   font-family: "FemmeFatale";
   font-size: 2vw;
+}
+.roles {
+  font-size: 1.2vw;
+  text-align: center;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: -6vh 15vw 0 15vw;
+}
+.textAbout {
+  margin: 3vh 0 8vh 0;
+}
+.textAbout > .title {
+  font-size: 2.2vw;
+  margin: 5vh 10vw 0 10vw;
+}
+.textAbout > .paragraph {
+  font-size: 1.5vw;
+  margin: 0 10vw;
+}
+.illustrations {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15vh;
+}
+.illustrations img {
+  width: 18vw;
+  cursor: url(svg/zoom.svg), auto;
+}
+.git {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 1.2vw;
+  color: #fff;
+  margin-bottom: 20vh;
 }
 .buttonToMainPage {
   display: flex;

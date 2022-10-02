@@ -10,64 +10,17 @@ body {
 .purpose {
   text-align: center;
   padding-top: 8vw;
-  margin: 0 3vw 0 3vw;
+  margin: 0;
 }
-.description {
-  text-align: center;
-  margin-top: -1vh;
-  font-size: 1.5vw;
-}
-.roles {
-  margin-top: 18vh;
-  font-size: 1.5vw;
+.mainPage {
+  height: 100vh;
+  margin-bottom: 20px;
 }
 .lamp {
   display: flex;
   right: 3vw;
   position: absolute;
-  top: calc(100vw*9/18);
+  top: calc(100vh + 3vh);
   z-index: -5;
   width: 15vw;
-}
-.about {
-  display: flex;
-  margin-top: 5vh;
-}
-.textAbout > .text {
-  font-size: 1.5vw;
-  margin: -10px 0 30px 100px;
-}
-.textAbout > .title {
-  font-size: 2.2vw;
-  margin: 0 0 10px 100px;
-}
-.illustration {
-  min-width: 42vw;
-}
-.aboutProject {
-  margin: 100px 0 100px 0;
-  align-items: flex-start;
-  font-size: 1.5vw;
-}
-.robot {
-  height: calc(42vw * 9/16);
-}
-.aboutProject > .textAbout {
-  text-align: right;
-  margin: 0 100px 50px 0;
-}
-.illustrations {
-  display: flex;
-  justify-content: space-between;
-}
-.scene {
-  text-align: center;
-  font-size: 1.5vw;
-  margin-bottom: -10vh;
-}
-.scene p {
-  opacity: 0.7;
-}
-.scene > .illustration {
-  max-width: 42vw;
 }

@@ -1,5 +1,5 @@
 body {
-  background: #535656;
+  background: #E4FDFF;
 }
 .leftUnderline {
   width: 13vw;
@@ -48,6 +48,7 @@ body {
   background-repeat: repeat-y;
   background-position: right;
   margin-top: -10px;
+  color: black;
 }
 .roles {
   padding-top: 10vh;
