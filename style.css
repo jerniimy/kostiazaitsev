@@ -201,17 +201,20 @@ a:active {
 }
 
 @media (max-width: 1000px) {
-  p {
+  header {
     font-size: 35px;
   }
   .title {
-    font-size: 65px;
+    font-size: 75px;
   }
   .textAbout > .title {
     font-size: 45px;
   }
   .about {
     margin: -6vh 5vw 0 5vw;
+  }
+  .git {
+    font-size: 25px;
   }
   .illustrations img {
     width: 22vw;
