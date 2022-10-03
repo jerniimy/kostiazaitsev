@@ -136,7 +136,7 @@ a:active {
   right: 0;
   margin: auto;
   justify-content: center;
-  top: 90vh;
+  bottom: 60px;
   z-index: 20;
   opacity: 0.5;
   border: none;
@@ -206,6 +206,6 @@ a:active {
     margin: -6vh 5vw 0 5vw;
   }
   .buttonToMainPage {
-    opacity: 1;
+    bottom: 30px;
   }
 }
