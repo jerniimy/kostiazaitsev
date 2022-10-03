@@ -21,7 +21,7 @@ body {
   display: flex;
   right: 3vw;
   position: absolute;
-  top: calc(100vh);
+  top: 100vh;
   z-index: -5;
   width: 15vw;
 }

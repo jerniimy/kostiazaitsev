@@ -21,7 +21,7 @@ body {
   color: black;
 }
 header {
-  font-size: calc(12px + 10 * 100vw/1280);
+  font-size: calc(16px + 100vw/1280);
   margin-top: 5vh;
 }
 .navigation {
@@ -42,7 +42,7 @@ header {
 }
 .arrow {
   min-width: 15px;
-  width: calc(12px + 10 * 100vw/1280);
+  width: calc(16px + 5 * 100vw/1280);
   padding: 0 20px;
 }
 main {
@@ -57,12 +57,12 @@ a:active {
   color: black;
 }
 .title {
-  font-size: calc(12px + 40 * 100vw/1280);
+  font-size: calc(16px + 40 * 100vw/1280);
   font-family: 'FemmeFatale';
 }
 .description {
   text-align: center;
-  font-size: calc(12px + 10 * 100vw/1280);
+  font-size: calc(16px + 10 * 100vw/1280);
   margin: 0 23vw;
 }
 .status {
@@ -81,10 +81,10 @@ a:active {
   z-index: 10;
   max-width: 45vw;
   font-family: "FemmeFatale";
-  font-size: calc(12px + 15*100vw/1280);
+  font-size: calc(16px + 15*100vw/1280);
 }
 .roles {
-  font-size: calc(12px + 5 * 100vw/1280);
+  font-size: calc(16px + 5 * 100vw/1280);
   text-align: center;
 }
 .about {
@@ -97,11 +97,11 @@ a:active {
   margin: 3vh 0 8vh 0;
 }
 .textAbout > .title {
-  font-size: calc(12px + 20 * 100vw/1280);
+  font-size: calc(16px + 20 * 100vw/1280);
   margin: 5vh 10vw 0 10vw;
 }
 .textAbout > .paragraph {
-  font-size: calc(12px + 10 * 100vw/1280);
+  font-size: calc(16px + 10 * 100vw/1280);
   margin: 0 10vw;
 }
 .illustration {
@@ -114,8 +114,7 @@ a:active {
   margin-bottom: 15vh;
 }
 .illustrations img {
-  min-width: 18vw;
-  max-width: 22vw;
+  width: 18vw;
   cursor: url(svg/zoom.svg), auto;
 }
 .git {
@@ -124,7 +123,7 @@ a:active {
   right: 0;
   margin: auto;
   text-decoration: underline;
-  font-size: calc(12px + 10 * 100vw/1280);
+  font-size: calc(16px + 10 * 100vw/1280);
   color: #fff;
   margin-bottom: 20vh;
   width: max-content;
@@ -143,7 +142,7 @@ a:active {
   border-radius: 30px;
   width: min-content;
   background: #000;
-  font-size: calc(12px + 10 * 100vw/1280);
+  font-size: calc(16px + 10 * 100vw/1280);
   color: #fff;
   padding: 10px 55px;
   transition: all ease 1s;
@@ -204,6 +203,9 @@ a:active {
 @media (max-width: 1000px) {
   .about {
     margin: -6vh 5vw 0 5vw;
+  }
+  .illustrations img {
+    width: 22vw;
   }
   .buttonToMainPage {
     bottom: 30px;
