@@ -3,11 +3,14 @@ body {
 }
 .mainPage {
   background: url(svg/purpose/purposeMain.svg) no-repeat center bottom fixed;
+  background-size: cover;
   height: 100vh;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 7vh;
+  box-sizing: border-box;
 }
 .purpose {
   display: flex;
