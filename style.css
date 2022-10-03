@@ -41,6 +41,8 @@ header {
   max-width: 15vw;
 }
 .arrow {
+  min-width: 15px;
+  width: 1.5vw;
   padding: 0 20px;
 }
 main {
