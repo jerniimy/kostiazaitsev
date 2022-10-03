@@ -2,25 +2,18 @@ body {
   background: black;
 }
 .mainPage {
-  background: url(svg/purpose/purposeMain.svg) no-repeat center center fixed;
-  background-size: cover;
+  background: url(svg/purpose/purposeMain.svg) no-repeat center bottom fixed;
   height: 100vh;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.purposeBackground {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -10;
-  width: 100vw;
-}
 .purpose {
   display: flex;
   justify-content: center;
   margin: 0;
+  z-index: -10;
 }
 .lamp {
   display: flex;
