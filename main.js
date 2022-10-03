@@ -10,14 +10,11 @@ function closeWindow() {
 
 // vald
 const vald = document.getElementById('VALD');
-const back = document.getElementById('VALDBackground');
-const backOnHover = document.getElementById('VALDBackgroundHover');
+const mainPage = document.getElementById('mainPage');
 
 vald.addEventListener('mouseover', (e) => {
-  back.classList.remove('active');
-  backOnHover.classList.add('active');
+  mainPage.style.backgroundImage = 'url(svg/VALD/VALDMainHover.svg)';
 });
 vald.addEventListener('mouseout', (e) => {
-  back.classList.add('active');
-  backOnHover.classList.remove('active');
+  mainPage.style.backgroundImage = 'url(svg/VALD/VALDMain.svg)';
 });

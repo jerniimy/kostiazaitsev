@@ -2,70 +2,65 @@
 <html>
  <head>
   <meta charset="utf-8" />
-  <title>Purpose</title>
+  <title>VALD</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="styleVALD.css">
  </head>
  <body>
-   <script src="preloader.js"></script>
    <div id="preloader">
      <div class="wrapper">
        <div class="preloader_text">loading</div>
      </div>
    </div>
-   <header>
-     <div class="navigation">
-       <a href="cat.html" class="navigation left"><img class="arrow" src="svg/arrowLeft.svg">Обо мне</a>
-       <a href="index.html" class="navigation right">Кот Шрёдингера<img class="arrow" src="svg/arrowRight.svg"></a>
+   <div id="mainPage">
+     <header>
+       <div class="navigation">
+         <a href="purpose.html" class="navigation left"><img class="arrow" src="svg/arrowLeft.svg">Purpose</a>
+         <a href="cat.html" class="navigation right">Кот Шрёдингера<img class="arrow" src="svg/arrowRight.svg"></a>
+       </div>
+       <div class="underline">
+         <img class="leftUnderline" src="svg/VALD/underlineLeft.svg">
+         <img src="svg/VALD/underlineRight.svg">
+       </div>
+     </header>
+     <div>
+       <p class="title VALD" id="VALD">VALD</p>
+       <p class="description VALD">История затрагивает события, во время которых главный герой выполняет одно из заданий местной гильдии наемников по поиску семьи, пропавшей в одной из пригородных деревень после бандитского налета. </p>
      </div>
-     <div class="underline">
-       <img class="leftUnderline" src="svg/VALD/underlineLeft.svg">
-       <img src="svg/VALD/underlineRight.svg">
+     <div class="status">
+       <img src="svg/VALD/smear.svg" class="smear">
+       <p>СТАТУС ПРОЕКТА: ОТЛОЖЕН НА ПЕРЕРАБОТКУ</p>
      </div>
-   </header>
-   <img id="VALDBackground" class="active" src="svg/VALD/VALDMain.svg">
-   <img id="VALDBackgroundHover" src="svg/VALD/VALDMainHover.svg">
+     </div>
    <main>
-     <p class="title" id="VALD">VALD</p>
-     <p class="description VALD">История затрагивает события, во время которых главный герой выполняет одно из заданий местной гильдии наемников по поиску семьи, пропавшей в одной из пригородных деревень после бандитского налета. </p>
-     <p class="status VALD">СТАТУС ПРОЕКТА: ОТЛОЖЕН НА ПЕРЕРАБОТКУ</p>
      <div class="roles">
        <p>ХУДОЖНИК, ГЕЙМ-ДИЗАЙНЕР, ЛЕВЕЛ-ДИЗАЙНЕР, САУНД-ДИЗАЙНЕР, НАРРАТИВНЫЙ ДИЗАЙНЕР</p>
        <hr>
      </div>
-       <div class="infoBlockWrapper">
-         <img class="wave" src="svg/VALD/wave.svg">
-       <div class="about">
-         <img class="illustration" src="svg/VALD/illustration1.svg">
-         <div class="textAbout">
-           <p class="title genre">ЖАНР ИГРЫ</p>
-           <p class="text genre">экшен-квест, платформер</p>
-           <p class="title style">СТИЛИСТИКА МИРА</p>
-           <p class="text style">Пост-постапокалипсис с элементами стимпанка</p>
-           <p class="title point">ГЛАВНАЯ ФИШКА ИГРЫ</p>
-           <p class="text point">перемещение между мирами</p>
-         </div>
+     <div class="about">
+       <div class="textAbout">
+         <p class="title">ЖАНР ИГРЫ</p>
+         <p class="paragraph">экшен-квест, платформер</p>
+         <p class="title">СТИЛИСТИКА МИРА</p>
+         <p class="paragraph">Пост-постапокалипсис с элементами стимпанка</p>
+         <p class="title">ФИШКИ ИГРЫ</p>
+         <p class="paragraph">Активное участие разных механик передвижения в решениях головоломок классического квеста, имитация проведения комбо в hack 'n' slash при перемещении</p>
        </div>
-       <div class="aboutProject">
-         <img class="illustration" src="svg/VALD/illustration2.svg">
-         <div class="textAbout">
-           <p class="title">О ПРОЕКТЕ</p>
-           <p class="text">Purpose изначально был дипломным проектом, над которым я работал в команде, в которой, помимо меня, было двое программистов и художница (2020). На данный момент работа над проектом продолжается с переформированной командой.</p>
-         </div>
+       <div class="illustrations">
+         <a href="svg/VALD/illustration1.svg" target="_blank"><img src="svg/VALD/illustration1.svg"></a>
+         <a href="svg/VALD/illustration2.svg" target="_blank"><img src="svg/VALD/illustration2.svg"></a>
+         <a href="svg/VALD/illustration3.svg" target="_blank"><img src="svg/VALD/illustration3.svg"></a>
        </div>
-       <div class="about illustrations">
-         <div class="scene">
-           <img src="svg/VALD/illustration3.svg" class="illustration">
-           <p>использование инструмента "крюк-кошка"</p>
-         </div>
-         <div class="scene">
-           <img src="svg/VALD/illustration4.svg" class="illustration">
-           <p>ослепление и побег от зверя</p>
-         </div>
+       <div class="textAbout">
+         <p class="title">О ПРОЕКТЕ</p>
+         <p class="paragraph">Purpose изначально был дипломным проектом, над которым я работал в команде, в которой, помимо меня, было двое программистов и художница (2020). На данный момент работа над проектом продолжается с переформированной командой.</p>
        </div>
+       <img class="illustration" src="svg/VALD/illustration4.svg">
      </div>
-     <a href="index.html"><input type="button" class="buttonToMainPage" value="на главную"></a>
+     <a href="#" class="git">github проекта</a>
    </main>
+   <a href="index.html"><input type="button" class="buttonToMainPage" value="на главную"></a>
+   <script src="preloader.js"></script>
    <script src="main.js"></script>
  </body>
  </html>

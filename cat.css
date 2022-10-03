@@ -1,76 +1,25 @@
 body {
-  background-image: url(svg/cat/back.svg);
-}
-.catBack {
-  position: absolute;
-  top: 0;
-  z-index: -10;
-  width: 100vw;
-}
-.cat {
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: min-content;
-  margin-top: calc(100vw*600/1440/5);
-  text-align: center;
-  white-space: nowrap;
-}
-.description {
-  margin-top: -1vh;
-  text-align: center;
-  font-size: 1.5vw;
-}
-.smear {
-  margin-top: 22vh;
-}
-.infoBlockWrapper {
-  position: relative;
   color: black;
+  background: url(jpg/backCat.png) no-repeat bottom center fixed;
+  background-size: cover;
 }
-.roles {
+.mainPage {
+  background: url(svg/cat/catMain.svg) no-repeat bottom center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 7vh;
+  box-sizing: border-box;
+  color: #fff;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.git {
   color: black;
-  padding-top: 13vh;
-  font-size: 1.5vw;
-}
-.about {
-  margin-top: 5vh;
-  display: flex;
-  justify-content: space-between;
-}
-.textAbout {
-  max-width: 42vw;
-}
-.illustration {
-  min-width: 42vw;
-  max-width: 45vw;
-  flex-grow: 1;
-}
-.textAbout > .text {
-  font-size: 1.5vw;
-  margin: -10px 100px 30px 0;
-}
-.textAbout > .title {
-  font-size: 2vw;
-  margin: 0 100px 10px 0;
-}
-.aboutProject {
-  margin-top: 10vh;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-.aboutProject > .textAbout {
-  text-align: left;
-}
-.textAbout > .text {
-  font-size: 1.5vw;
-}
-.scene {
-  text-align: center;
-  font-size: 1.5vw;
-  margin: 5vh 0;
-}
-.scene p {
-  opacity: 0.7;
 }

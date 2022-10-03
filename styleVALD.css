@@ -1,103 +1,37 @@
 body {
-  background: #E4FDFF;
+  background: url(jpg/backgroundTexture.jpg) center center fixed;
+  background-size: cover;
 }
 .leftUnderline {
   width: 13vw;
-}
-#VALDBackground {
-  position: absolute;
-  display: none;
-  top: 0;
-  z-index: -10;
-  width: 100vw;
-}
-#VALDBackground.active {
-  display: block;
-}
-#VALDBackgroundHover {
-  position: absolute;
-  display: none;
-  top: 0;
-  z-index: -10;
-  width: 100vw;
-}
-#VALDBackgroundHover.active {
-  display: block;
 }
 #VALD {
   left: 0;
   right: 0;
   margin: auto;
   width: min-content;
-  margin-top: calc(100vw*600/1440/5);
 }
-.description {
-  margin-top: -1vh;
-  text-align: center;
-  font-size: 1.5vw;
+#mainPage {
+  background: url(svg/VALD/VALDMain.svg) no-repeat bottom center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 7vh;
+  box-sizing: border-box;
 }
-.status {
-  text-align: right;
-  padding-top: calc(100vw*460/1440/3);
-  font-family: "FemmeFatale";
-  font-size: 2vw;
-}
-.infoBlockWrapper {
-  position: relative;
-  background-image: url(svg/VALD/texture.svg);
-  background-repeat: repeat-y;
-  background-position: right;
-  margin-top: -10px;
+main {
   color: black;
 }
-.roles {
-  padding-top: 10vh;
-  font-size: 1.5vw;
+hr {
+  background: black;
+  height: 1px;
 }
-.wave {
-  position: absolute;
-  top: 5vh;
-  z-index: -5;
-  width: 45vw;
+.illustrations {
+  margin-bottom: 0;
 }
-.about {
-  padding-top: 5vh;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-.illustration {
-  min-width: 42vw;
-  max-width: 45vw;
-  flex-grow: 1;
-}
-.textAbout > .text {
-  font-size: 1.5vw;
-  margin: -10px 100px 30px 0;
-}
-.textAbout > .title {
-  font-size: 2vw;
-  margin: 0 100px 10px 0;
-}
-.aboutProject {
-  margin-top: 100px;
-  align-items: flex-start;
-  display: flex;
-  justify-content: space-between;
-}
-.aboutProject > .textAbout {
-  text-align: left;
-  margin: 0 0 50px 100px;
-  max-width: 42vw;
-}
-.textAbout > .text {
-  font-size: 1.5vw;
-}
-.scene {
-  text-align: center;
-  font-size: 1.5vw;
-  margin: 5vh 0;
-}
-.scene p {
-  opacity: 0.7;
+.git {
+  color: black;
 }
