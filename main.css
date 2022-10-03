@@ -102,3 +102,8 @@ body {
 .element:active {
   color: black;
 }
+@media (max-width: 1000px) {
+  .element {
+    font-size: 25px;
+  }
+}
