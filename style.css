@@ -205,4 +205,7 @@ a:active {
   .about {
     margin: -6vh 5vw 0 5vw;
   }
+  .buttonToMainPage {
+    opacity: 1;
+  }
 }

@@ -16,7 +16,6 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  z-index: -10;
 }
 .lamp {
   display: flex;
