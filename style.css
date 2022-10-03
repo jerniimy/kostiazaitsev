@@ -138,12 +138,12 @@ a:active {
   z-index: 20;
   opacity: 0.5;
   border: none;
-  border-radius: 30px;
+  border-radius: 50px;
   width: min-content;
   background: #000;
-  font-size: calc(25px + 100vw/1280);
+  font-size: 25px;
   color: #fff;
-  padding: 10px 55px;
+  padding: 8px 45px;
   transition: all ease 1s;
 }
 .buttonToMainPage:hover {
