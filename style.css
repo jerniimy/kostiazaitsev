@@ -21,7 +21,7 @@ body {
   color: black;
 }
 header {
-  font-size: calc(16px + 100vw/1280);
+  font-size: calc(25px + 100vw/1280);
   margin-top: 5vh;
 }
 .navigation {
@@ -42,7 +42,7 @@ header {
 }
 .arrow {
   min-width: 15px;
-  width: calc(16px + 5 * 100vw/1280);
+  width: calc(25px + 5 * 100vw/1280);
   padding: 0 20px;
 }
 main {
@@ -57,12 +57,12 @@ a:active {
   color: black;
 }
 .title {
-  font-size: calc(16px + 40 * 100vw/1280);
+  font-size: calc(40px + 40 * 100vw/1280);
   font-family: 'FemmeFatale';
 }
 .description {
   text-align: center;
-  font-size: calc(16px + 10 * 100vw/1280);
+  font-size: calc(25px + 10 * 100vw/1280);
   margin: 0 23vw;
 }
 .status {
@@ -81,10 +81,10 @@ a:active {
   z-index: 10;
   max-width: 45vw;
   font-family: "FemmeFatale";
-  font-size: calc(16px + 15*100vw/1280);
+  font-size: calc(25px + 15*100vw/1280);
 }
 .roles {
-  font-size: calc(16px + 5 * 100vw/1280);
+  font-size: calc(25px + 5 * 100vw/1280);
   text-align: center;
 }
 .about {
@@ -97,11 +97,11 @@ a:active {
   margin: 3vh 0 8vh 0;
 }
 .textAbout > .title {
-  font-size: calc(16px + 20 * 100vw/1280);
+  font-size: calc(40px + 20 * 100vw/1280);
   margin: 5vh 10vw 0 10vw;
 }
 .textAbout > .paragraph {
-  font-size: calc(16px + 10 * 100vw/1280);
+  font-size: calc(25px + 10 * 100vw/1280);
   margin: 0 10vw;
 }
 .illustration {
@@ -123,7 +123,7 @@ a:active {
   right: 0;
   margin: auto;
   text-decoration: underline;
-  font-size: calc(16px + 10 * 100vw/1280);
+  font-size: calc(25px + 10 * 100vw/1280);
   color: #fff;
   margin-bottom: 20vh;
   width: max-content;
@@ -142,7 +142,7 @@ a:active {
   border-radius: 30px;
   width: min-content;
   background: #000;
-  font-size: calc(16px + 5 * 100vw/1280);
+  font-size: calc(25px + 5 * 100vw/1280);
   color: #fff;
   padding: 10px 55px;
   transition: all ease 1s;
@@ -209,5 +209,54 @@ a:active {
   }
   .buttonToMainPage {
     bottom: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 25px;
+  }
+  .description {
+    text-align: center;
+    font-size: calc(16px + 10 * 100vw/1280);
+    margin: 0 23vw;
+  }
+  .status {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 3vw;
+  }
+  .smear {
+    position: relative;
+    left: 25vw;
+    max-width: 30vw;
+    min-width: 20vw;
+  }
+  .status p {
+    z-index: 10;
+    max-width: 45vw;
+    font-family: "FemmeFatale";
+    font-size: calc(16px + 15*100vw/1280);
+  }
+  .roles {
+    font-size: calc(16px + 5 * 100vw/1280);
+    text-align: center;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: -6vh 15vw 0 15vw;
+  }
+  .textAbout {
+    margin: 3vh 0 8vh 0;
+  }
+  .textAbout > .title {
+    font-size: calc(16px + 20 * 100vw/1280);
+    margin: 5vh 10vw 0 10vw;
+  }
+  .textAbout > .paragraph {
+    font-size: calc(16px + 10 * 100vw/1280);
+    margin: 0 10vw;
   }
 }
