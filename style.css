@@ -142,7 +142,7 @@ a:active {
   border-radius: 30px;
   width: min-content;
   background: #000;
-  font-size: calc(16px + 10 * 100vw/1280);
+  font-size: calc(16px + 5 * 100vw/1280);
   color: #fff;
   padding: 10px 55px;
   transition: all ease 1s;
