@@ -201,6 +201,15 @@ a:active {
 }
 
 @media (max-width: 1000px) {
+  p {
+    font-size: 35px;
+  }
+  .title {
+    font-size: 65px;
+  }
+  .textAbout > .title {
+    font-size: 45px;
+  }
   .about {
     margin: -6vh 5vw 0 5vw;
   }

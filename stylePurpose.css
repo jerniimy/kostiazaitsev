@@ -2,7 +2,7 @@ body {
   background: black;
 }
 .mainPage {
-  background: url(svg/purpose/purposeMain.svg) no-repeat center bottom fixed;
+  background: url(svg/purpose/purposeMain.svg) no-repeat bottom center fixed;
   background-size: cover;
   height: 100vh;
   margin-bottom: 20px;
