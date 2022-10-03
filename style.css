@@ -207,6 +207,12 @@ a:active {
   .title {
     font-size: 75px;
   }
+  .description {
+    font-size: 35px;
+  }
+  .textAbout > .text {
+    font-size: 35px;
+  }
   .textAbout > .title {
     font-size: 45px;
   }
