@@ -22,3 +22,8 @@ body {
 .git {
   color: black;
 }
+@media (max-width: 1000px) {
+  .mainPage {
+    background: url(jpg/catBack.jpg) no-repeat bottom center fixed;
+  }
+}
