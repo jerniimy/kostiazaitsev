@@ -150,13 +150,15 @@ hr {
   max-width: 300px;
   grid-row: 1/span 1;
   grid-column: 1/span 1;
+  cursor: url(svg/pointer.svg), auto;
 }
 .contactLight {
   min-width: 12vw;
   max-width: 300px;
-  animation: example 3s infinite;
+  animation: light 3s infinite;
   grid-row: 1/span 1;
   grid-column: 1/span 1;
+  cursor: url(svg/pointer.svg), auto;
 }
 @media (max-width: 1100px) {
   .title {
