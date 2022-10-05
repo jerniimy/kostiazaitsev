@@ -172,4 +172,7 @@ hr {
   .members {
     flex-direction: column;
   }
+  .about > .text {
+    font-size: 25px;
+  }
 }
