@@ -1,7 +1,6 @@
 body {
   color: black;
-  background: url(jpg/backCat.png) no-repeat bottom center fixed;
-  background-size: cover;
+  background: #fff;
 }
 .mainPage {
   background: url(svg/cat/catMain.svg) no-repeat bottom center fixed;

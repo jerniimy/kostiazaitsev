@@ -116,15 +116,30 @@ a:active {
   width: 18vw;
   cursor: url(svg/zoom.svg), auto;
 }
+.gitWrapper {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-columns: max-content;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
 .git {
-  display: flex;
-  left: 0;
-  right: 0;
-  margin: auto;
-  font-size: calc(25px + 100vw/1280);
-  color: #fff;
-  margin-bottom: 20vh;
-  width: max-content;
+  min-width: 10vw;
+  max-width: 300px;
+  grid-row: 1/span 1;
+  grid-column: 1/span 1;
+}
+.gitLight {
+  min-width: 10vw;
+  max-width: 300px;
+  animation: example 3s infinite;
+  grid-row: 1/span 1;
+  grid-column: 1/span 1;
+}
+@keyframes example {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
 }
 .buttonToMainPage {
   display: flex;
@@ -147,8 +162,8 @@ a:active {
 }
 .buttonToMainPage:hover {
   opacity: 1;
-  background: #4E5367;
-  color: #FFE194;
+  background: #363636;
+  color: #D6F301;
 }
 #preloader {
   position: fixed;

@@ -127,33 +127,40 @@ hr {
   text-align: center;
   font-size: 20px;
 }
-.aaa {
+.member {
+  margin-top: 5vh;
+}
+.contactWrapper {
   display: grid;
   grid-template-rows: max-content;
   grid-template-columns: max-content;
+  justify-content: center;
 }
 .contact {
-  width: 15vw;
+  min-width: 12vw;
+  max-width: 300px;
   grid-row: 1/span 1;
   grid-column: 1/span 1;
 }
-@keyframes example {
-    0%   { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
-.contactHover {
-  width: 15vw;
+.contactLight {
+  min-width: 12vw;
+  max-width: 300px;
   animation: example 3s infinite;
   grid-row: 1/span 1;
   grid-column: 1/span 1;
 }
 @media (max-width: 1100px) {
+  .title {
+    margin-bottom: 8vh;
+  }
   .cardsWrapper {
     flex-wrap: wrap;
   }
   .card {
     min-width: 30vw;
     max-width: 300px;
+  }
+  .members {
+    flex-direction: column;
   }
 }
