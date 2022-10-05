@@ -26,7 +26,8 @@ body {
 @media (min-width: 400px) and (max-width: 1100px) {
   .mainPage: {
     background: url(svg/cat/catMain.svg) no-repeat scroll;
-    background-size: auto;
+    background-size: contain;
+    height: 100vh;
   }
   .git {
     display: none;
