@@ -123,11 +123,15 @@ a:active {
   justify-content: center;
   margin-bottom: 15vh;
 }
+.gitWrapper:active {
+  background: none;
+}
 .git {
   min-width: 10vw;
   max-width: 400px;
   grid-row: 1/span 1;
   grid-column: 1/span 1;
+  cursor: url(svg/pointer.svg), auto;
 }
 .gitLight {
   min-width: 10vw;
@@ -135,6 +139,7 @@ a:active {
   animation: example 3s infinite;
   grid-row: 1/span 1;
   grid-column: 1/span 1;
+  cursor: url(svg/pointer.svg), auto;
 }
 @keyframes example {
     0%   { opacity: 0; }
