@@ -35,9 +35,3 @@ hr {
 .git {
   color: black;
 }
-@media (max-width: 1100px) {
-  body {
-    background: url(jpg/backgroundTextureSmall.jpg) center center fixed;
-    background-size: cover;
-  }
-}
