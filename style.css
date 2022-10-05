@@ -245,6 +245,7 @@ a:active {
   }
   .buttonToMainPage {
     bottom: 60px;
+    min-width: 250px;
   }
 }
 @media screen and (max-width: 1000px) and (orientation: landscape) {
