@@ -17,8 +17,10 @@ body {
   display: flex;
 }
 .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
   width: 100vw;
-  height: 100vh;
   background: grey;
   opacity: 0.5;
   cursor: url(svg/pointer.svg), auto;
@@ -104,6 +106,14 @@ body {
 }
 @media (max-width: 1000px) {
   .element {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .title {
+    font-size: 30px;
+  }
+  .gamedesigner {
     font-size: 25px;
   }
 }
