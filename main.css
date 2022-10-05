@@ -29,13 +29,13 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 20px 80px;
   min-width: max-content;
   max-width: 70vw;
   min-height: 200px;
-  height: 40vh;
+  height: max-content;
   max-height: 300px;
   background: #fff;
   color: #000;
