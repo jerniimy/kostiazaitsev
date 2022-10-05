@@ -1,0 +1,159 @@
+body {
+  background: #252525;
+  background-image: url(svg/about/background.svg);
+  background-position-y: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+.about {
+  padding: 0 7vw;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.title p {
+  font-size: 20px;
+  white-space: nowrap;
+  margin-right: 3vw;
+}
+hr {
+  background: #fff;
+  height: 1px;
+  width: 100vw;
+}
+.about > .title {
+  left: 0;
+  right: 0;
+  margin: 10vh auto 5vh auto;
+  font-size: calc(40px + 100vw/1280);
+}
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  background: #B2E8D4;
+  color: #363636;
+  box-sizing: border-box;
+  min-width: 13vw;
+  min-height: 220px;
+  height: 25vh;
+  padding: 20px;
+  margin: 0 1vw 10vh 1vw;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.sphere {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.source {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.sertificate {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #353535;
+  padding: 8px 8px 11px 8px;
+  border-radius: 10px;
+  color: #fff;
+  width: 60%;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.card:hover {
+  background: #363636;
+  color: #fff;
+}
+.card:hover > .sertificate {
+  background: #B2E8D4;
+  color: #363636;
+}
+.hobbyBlock > .title {
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0 5vh 0;
+  font-size: calc(40px + 100vw/1280);
+}
+.hobbies {
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.hobbies p {
+  border-top: solid 2px #fff;
+  font-size: 25px;
+  margin: 0 5vw 5vw 5vw;
+}
+.icon {
+  width: 4vw;
+  margin: 0 5vw;
+}
+.team {
+  margin-bottom: 15vh;
+}
+.team > .title {
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0 5vh 0;
+  font-size: calc(40px + 100vw/1280);
+}
+.member > hr {
+  width: 20px;
+}
+.members {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+.aaa {
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-columns: max-content;
+}
+.contact {
+  width: 15vw;
+  grid-row: 1/span 1;
+  grid-column: 1/span 1;
+}
+@keyframes example {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.contactHover {
+  width: 15vw;
+  animation: example 3s infinite;
+  grid-row: 1/span 1;
+  grid-column: 1/span 1;
+}
+@media (max-width: 1100px) {
+  .cardsWrapper {
+    flex-wrap: wrap;
+  }
+  .card {
+    min-width: 30vw;
+    max-width: 300px;
+  }
+}
