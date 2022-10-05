@@ -28,4 +28,12 @@ body {
     background: url(svg/cat/catMain.svg) no-repeat scroll;
     background-size: auto;
   }
+  .git {
+    display: none;
+  }
+  .gitLight {
+    min-width: 10vw;
+    max-width: 400px;
+    animation: none;
+  }
 }
