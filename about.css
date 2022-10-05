@@ -161,9 +161,6 @@ hr {
   cursor: url(svg/pointer.svg), auto;
 }
 @media (max-width: 1100px) {
-  .title {
-    margin-bottom: -8vh;
-  }
   .cardsWrapper {
     flex-wrap: wrap;
   }
