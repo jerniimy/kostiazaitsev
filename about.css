@@ -172,6 +172,7 @@ hr {
     flex-direction: column;
   }
   .about > .text {
+    margin-top: 5vh;
     font-size: 25px;
   }
 }

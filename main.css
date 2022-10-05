@@ -65,10 +65,34 @@ body {
 .contactMe p {
   cursor: url(svg/pointer.svg), auto;
 }
+.arrowWrapper {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
+}
 .arrow {
   width: 40px;
-  margin-left: 20px;
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
   cursor: url(svg/pointer.svg), auto;
+  transition: 1s;
+}
+.arrowReverse {
+  opacity: 0;
+  width: 40px;
+  margin-left: 20px;
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+  transition: 1s;
+}
+.arrow:hover {
+  opacity: 0;
+}
+.arrow:hover ~ .arrowReverse {
+  opacity: 1;
+}
+.arrowReverse:hover {
+  opacity: 1;
 }
 .title {
   display: flex;
