@@ -31,8 +31,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  width: 30vw;
+  padding: 20px 80px;
+  min-width: max-content;
+  max-width: 70vw;
   min-height: 200px;
   height: 40vh;
   max-height: 300px;
