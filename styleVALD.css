@@ -36,13 +36,13 @@ hr {
   color: black;
 }
 @media (min-width: 520px) and (max-width: 991px) {
-  .mainPage {
+  #mainPage {
     background-position: center center;
     background-attachment: scroll;
   }
 }
 @media (min-width: 480px) and (max-width: 1400px) and (orientation: landscape) {
-  .mainPage {
+  #mainPage {
     background-position: center center;
     background-attachment: scroll;
   }
