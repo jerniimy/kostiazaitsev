@@ -149,10 +149,16 @@ body {
 }
 @media screen and (max-width: 900px) and (orientation: landscape) {
   .title {
-    font-size: 30px;
+    font-size: 35px;
   }
   .gamedesigner {
     font-size: 25px;
     margin-top: 15px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .content {
+    min-width: 70vw;
+    min-height: 80vw;
   }
 }
