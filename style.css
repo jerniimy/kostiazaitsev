@@ -260,7 +260,7 @@ a:active {
     font-size: 20px;
   }
 }
-@media (min-width: 580px) and (max-width: 991px) {
+@media (min-width: 480px) and (max-width: 991px) {
   .git {
     display: none;
   }
