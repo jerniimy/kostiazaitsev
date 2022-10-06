@@ -260,7 +260,7 @@ a:active {
     font-size: 20px;
   }
 }
-@media (min-width: 480px) and (max-width: 991px) {
+@media (min-width: 580px) and (max-width: 991px) {
   .mainPage {
     background-position: center center;
     background-attachment: scroll;
@@ -292,5 +292,6 @@ a:active {
     opacity: 1;
     color: black;
     margin-top: 5vh;
+    font-size: 30px;
   }
 }
