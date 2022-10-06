@@ -20,7 +20,7 @@ body {
   justify-content: center;
   margin: 0;
 }
-@media (min-width: 480px) and (max-width: 1400px) and (orientation: landscape) {
+@media (min-width: 480px) and (max-width: 1400px) {
   .mainPage {
     background-position: center center;
     background-attachment: scroll;
