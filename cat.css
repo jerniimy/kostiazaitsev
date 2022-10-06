@@ -1,6 +1,7 @@
 body {
   color: black;
   background: #fff;
+  background: url(jpg/catBack.png) repeat scroll;
 }
 .mainPage {
   background: url(svg/cat/catMain.svg) no-repeat bottom center fixed;
