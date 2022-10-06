@@ -261,10 +261,6 @@ a:active {
   }
 }
 @media (min-width: 580px) and (max-width: 991px) {
-  .mainPage {
-    background-position: center center;
-    background-attachment: scroll;
-  }
   .git {
     display: none;
   }
@@ -278,10 +274,6 @@ a:active {
   }
 }
 @media (min-width: 480px) and (max-width: 1400px) and (orientation: landscape) {
-  .mainPage {
-    background-position: center center;
-    background-attachment: scroll;
-  }
   .git {
     display: none;
   }
