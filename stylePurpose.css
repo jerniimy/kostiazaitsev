@@ -24,6 +24,7 @@ body {
   top: 100vh;
   z-index: -5;
   width: 15vw;
+  min-width: 150px;
 }
 .gitForIpad {
   color: #fff;
