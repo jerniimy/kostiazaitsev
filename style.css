@@ -260,19 +260,6 @@ a:active {
     font-size: 20px;
   }
 }
-@media (min-width: 480px) and (max-width: 991px) {
-  .git {
-    display: none;
-  }
-  .gitLight {
-    display: none;
-  }
-  .gitForIpad {
-    opacity: 1;
-    color: black;
-    margin-top: 5vh;
-  }
-}
 @media (min-width: 580px) and (max-width: 1400px) {
   .git {
     display: none;
