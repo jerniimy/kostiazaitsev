@@ -35,7 +35,7 @@ hr {
 .git {
   color: black;
 }
-@media (min-width: 580px) and (max-width: 991px) {
+@media (min-width: 520px) and (max-width: 991px) {
   .mainPage {
     background-position: center center;
     background-attachment: scroll;
