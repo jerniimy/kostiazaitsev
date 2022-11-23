@@ -58,7 +58,7 @@ a:active {
 }
 .title {
   font-size: calc(60px + 20 * 100vw/1280);
-  font-family: 'FemmeFatale';
+  font-family: 'Ambidexter';
 }
 .description {
   text-align: center;
