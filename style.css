@@ -3,8 +3,8 @@ font-family: 'FairwallSans-Regular';
 src: url("font/FairwallSans-Regular.otf") format("opentype");
 }
 @font-face {
-font-family: 'FemmeFatale';
-src: url("font/FemmeFatale-Regular.otf") format("opentype");
+font-family: 'Ambidexter';
+src: url("font/Ambidexter.otf") format("opentype");
 }
 * {
   cursor: url(svg/cursor.svg), auto;
@@ -80,7 +80,7 @@ a:active {
 .status p {
   z-index: 10;
   max-width: 45vw;
-  font-family: "FemmeFatale";
+  font-family: "Ambidexter";
   font-size: calc(25px + 5 * 100vw/1280);
 }
 .roles {
