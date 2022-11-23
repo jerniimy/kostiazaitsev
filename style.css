@@ -4,7 +4,7 @@ src: url("font/FairwallSans-Regular.otf") format("opentype");
 }
 @font-face {
 font-family: 'Ambidexter';
-src: url("font/ambidexter-regular.otf") format("opentype");
+src: url("font/ambidexter_regular.otf") format("opentype");
 }
 * {
   cursor: url(svg/cursor.svg), auto;
